@@ -1,0 +1,14 @@
+.card {
+  height: 150px;
+  width: 250px;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, #79096d, #5500ff) 10;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+
+  display: flex;
+  padding: 30px;
+}
+.card:hover {
+  box-shadow: 1px 1px 1px 1px black;
+}

@@ -1,0 +1,24 @@
+.header {
+  display: grid;
+}
+
+.logo {
+  justify-content: center;
+}
+.links {
+  display: flex;
+  font-size: 1.3rem;
+  color: red;
+  justify-content: space-around;
+}
+.links li a {
+  text-decoration: none;
+}
+.links ul li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  column-gap: 80px;
+  justify-content: space-around;
+}

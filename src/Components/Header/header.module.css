@@ -1,0 +1,20 @@
+.header h1 {
+  margin: 50px 50px 0 680px;
+
+  font-size: 3.5rem;
+  text-decoration: underline 3px black;
+  background: linear-gradient(
+    to right,
+    rgba(121, 9, 109, 1),
+    rgba(51, 14, 120, 0.733)
+  );
+  background-clip: text; /* Apply gradient to the text */
+  -webkit-background-clip: text; /* For browser compatibility */
+  color: transparent; /* Set text color to transparent */
+}
+.header p {
+  margin: 40px 40px 40px 0;
+  list-style: none;
+  font-size: 2rem;
+  margin-left: 400px;
+}
